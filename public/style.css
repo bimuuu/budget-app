@@ -1,0 +1,31 @@
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.balance-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    border-right: 5px solid #2ecc71; /* สีเขียวสำหรับรายรับ */
+}
+
+.list li.minus {
+    border-right: 5px solid #c0392b; /* สีแดงสำหรับรายจ่าย */
+}
